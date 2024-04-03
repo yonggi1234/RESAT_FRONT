@@ -6,3 +6,8 @@ npm install react-router-dom --save
     or
 yarn add react-router-dom
 '''
+
+### gh-page 베포
+'''
+npm run deploy
+'''
