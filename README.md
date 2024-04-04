@@ -14,5 +14,5 @@ npm run deploy
 
 ### date-fns
 '''
-
+npm install date-fns --save
 '''
