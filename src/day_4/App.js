@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import Stopwatch from './Challenge_2'
+import Calendar from './Calendar';
+
 class App extends Component {
   render() {  
     return (
       <div>
-        <Stopwatch/>
+        <Calendar/>
       </div>
     );
   }
