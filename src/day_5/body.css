@@ -1,0 +1,118 @@
+.body-container{
+    margin: auto;
+    background-color: white;
+}
+
+.top{
+    width: 100%;
+    height: 650px;
+    position: relative;
+    margin: auto;
+    padding-top: 73px;
+}
+
+.top-title{
+    opacity: 1;
+    transform: translateY(0px);
+    transition: all 1s ease-out 0s;
+    font-size: 32px;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 16px;
+    color: rgb(26, 27, 28);
+    word-break: keep-all;
+}
+.middle-title{
+    opacity: 1;
+    transform: translateY(0px);
+    transition: all 1s ease-out 0s;
+    font-size: 16px;
+    color: rgb(147, 153, 153);
+    margin-bottom: 46px;
+    text-align: center;
+}
+
+.laptop{
+    opacity: 1;
+    transform: translateY(0px);
+    transition: all 1s ease-out 0s;
+    position: absolute;
+    display: block;
+    padding-left: 38px;
+    margin: 0px auto;
+    z-index: 12;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    --swiper-theme-color: #007aff;
+}
+.behind-img{
+    height: 190px;
+    position: absolute;
+    width: 100%;
+    height: 298px;
+    bottom: 0px;
+    left: 0px;
+    background: linear-gradient(90deg, rgb(51, 207, 255) 0%, rgb(23, 161, 255) 98.15%);
+}
+
+.miniintern{
+    padding-top: 62px;
+    width: 100%;
+    padding: 80px 0px 72px;
+    box-sizing: border-box;
+    display: block;
+    font-size: 0.875rem;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 10pxx;
+    padding: 0px;
+    border: 0px;
+    vertical-align: baseline;
+    color: rgb(26, 27, 28);
+}
+.intern-title{
+    opacity: 1;
+    transform: translateY(0px);
+    transition: all 0.6s ease-out 0s;
+    font-size: 26px;
+    line-height: 1.4;
+    margin-bottom: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+.about-intern{
+    opacity: 1;
+    transform: translateY(0px);
+    transition: all 0.6s ease-out 0s;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 10px 0px 20px;
+}
+.intern-card{
+    opacity: 1;
+    transform: translateY(0px);
+    transition: all 0.6s ease-out 0s;
+    display: block;
+    padding: 12px 24px 24px;
+    white-space: nowrap;
+    text-align: center;
+}
+.intern-img{
+    margin-bottom: 32px;
+}
+.about-internship{
+    white-space: initial;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.text-internship{
+    white-space: initial;
+    text-align: center;
+    width: 100%;
+    word-break: keep-all;
+}

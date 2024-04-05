@@ -1,0 +1,120 @@
+.container{
+    position: relative;
+    display: block;
+}
+.header-container{
+    position: sticky;
+    top: -1px;
+    height: 51px;
+    z-index: 20;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    height: 61px;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 56, 68, 0.1);
+    
+}
+.header-inner{
+    padding-left: 1rem;
+    padding-right: 11px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 90rem;
+}
+.header-logo{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+}
+.logo{
+    display: block;
+    line-height: 0;
+}
+.header-nav{
+    box-sizing: border-box;
+    display: block;
+    font-size: 0.875rem;
+    margin: 0px;
+    padding: 0px;
+}
+.header-ul{
+    height: 100%;
+}
+.nav-li{
+    display: inline-flex;
+    height: 100%;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.link{
+    position: relative;
+    font-size: 0.875rem;
+    cursor: pointer;
+    padding: 1.25rem 1rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    transition: color 0.2s ease-in-out 0s;
+    font-weight: 400;
+    color: rgb(171, 177, 177);
+}
+
+.info{
+    position: relative;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 24px;
+    height: 100%;
+}
+.user{
+    margin-left: auto;
+    height: 100%;
+}
+.ul-info{
+    height: 100%;
+}
+.li-info{
+    display: inline-flex;
+    height: 100%;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.div-info{
+    position: relative;
+    font-size: 0.875rem;
+    cursor: pointer;
+    padding: 1.25rem 1rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    transition: color 0.2s ease-in-out 0s;
+    font-weight: 400;
+    color: rgb(171, 177, 177);
+}
+
+
+.body-container{
+    margin: auto;
+    background-color: white;
+}
+
+
+
+.footer-container{
+    background-color: aqua;
+    position:relative; 
+    width:100vw;
+    min-height: 50px;
+    left:0px;
+    top:0px;
+}
+

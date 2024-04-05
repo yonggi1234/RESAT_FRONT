@@ -1,0 +1,81 @@
+*{
+    outline: none;
+    box-sizing: inherit;
+    color: rgb(26, 27, 28);
+}
+body{
+    font-family: "Noto Sans", "Noto Sans KR", sans-serif;
+    box-sizing: border-box;
+    position: relative;
+    line-height: 1.5;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+    min-height: 100vh;
+    font-size: 0.875rem;
+}
+div {
+    box-sizing: border-box;
+    margin: 10pxx;
+    padding: 0px;
+    border: 0px;
+    vertical-align: baseline;
+    color: rgb(26, 27, 28);
+}
+ul{
+    box-sizing: border-box;
+    margin: 10pxx;
+    padding: 0px;
+    border: 0px;
+    vertical-align: baseline;
+    color: rgb(26, 27, 28);
+}
+li{
+    box-sizing: border-box;
+    margin: 10pxx;
+    padding: 0px;
+    border: 0px;
+    vertical-align: baseline;
+    color: rgb(26, 27, 28);
+    list-style: none;
+}
+a {
+    box-sizing: border-box;
+    margin: 10pxx;
+    padding: 0px;
+    border: 0px;
+    vertical-align: baseline;
+    color: rgb(26, 27, 28);
+}
+p{
+    box-sizing: border-box;
+    margin: 10pxx;
+    padding: 0px;
+    border: 0px;
+    vertical-align: baseline;
+    color: rgb(26, 27, 28);
+}
+h3{
+    box-sizing: border-box;
+    margin: 10pxx;
+    padding: 0px;
+    border: 0px;
+    vertical-align: baseline;
+    color: rgb(26, 27, 28);
+}
+img{
+    box-sizing: border-box;
+    margin: 10pxx;
+    padding: 0px;
+    border: 0px;
+    vertical-align: baseline;
+    color: rgb(26, 27, 28);
+}
+section{
+    box-sizing: border-box;
+    margin: 10pxx;
+    padding: 0px;
+    border: 0px;
+    vertical-align: baseline;
+    color: rgb(26, 27, 28);
+}
