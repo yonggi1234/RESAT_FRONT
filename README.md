@@ -16,3 +16,8 @@ npm run deploy
 '''
 npm install date-fns --save
 '''
+
+### react-icons 설치
+'''
+yarn add react-icons
+'''
