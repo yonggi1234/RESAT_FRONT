@@ -1,5 +1,13 @@
 ## RESAT Front
 
+
+### build
+'''
+//index.js - n주차 수정 
+import App from './day_{n}/App'; 
+//ex) import App from ./day_1/App
+'''
+
 ### 환경
 '''
 npm install react-router-dom --save
