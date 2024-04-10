@@ -5,6 +5,7 @@ import "./Carousel.css";
 
 export const Carousel = ({ data }) => {
   const [slide, setSlide] = useState(0);
+  const [carouselText, setCarouselText] = useState('');
 
   const nextSlide = () => {
     setSlide(slide === data.length - 1 ? 0 : slide + 1);
@@ -21,6 +22,11 @@ export const Carousel = ({ data }) => {
 
     return () => clearInterval(intervalId); 
   }); 
+
+  useEffect(() => {
+    const textArray = ['one', 'two', 'three'];
+    setCarouselText(textArray[slide]);
+  }, [slide]);
 
   return (
     <div className="carousel">
@@ -52,6 +58,7 @@ export const Carousel = ({ data }) => {
           );
         })}
       </span>
+      <p className='Carousel-text'>{carouselText}</p>
     </div>
   );
 };

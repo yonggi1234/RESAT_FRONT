@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import  './common.css';
 import  './body.css';
+import "../day_67/Carousel"
+import {Carousel} from "../day_67/Carousel";
+import slides from '../day_67/img/carousel_Img.json';
+
+const data = slides.slides;
 
 class body extends Component {
     render() {
@@ -60,7 +65,28 @@ class body extends Component {
 
                     </div>
                 </div>
+                <section className='intern-carousel'>
+                    <div className='about-process'>
+                        <div className="process-title">
+                            <p className="intern-process-info">
+                                미니인턴은
+                                <br/>
+                                <strong>교육형 미니인턴</strong>
+                                " 과"
+                                <strong>채용형 미니인턴</strong>으로 나눠집니다.
+                            </p>
+                        </div>
+                        <div className="info-swap">
+                            <p>진행 단계</p>
+                            <div className="carousel">
+                                <Carousel data={data}/>
+                                {/* <p className='Carousel-text'>hi</p>   */}
+                            </div>
 
+                        </div>
+                    </div>
+
+                </section>
                 
             </div>
         );

@@ -18,6 +18,7 @@
   align-items: center;
   width: 600px;
   height: 400px;
+  margin-top: 30px;
 }
 
 .carousel img {
@@ -78,4 +79,13 @@
 
 .indicator-inactive {
   background-color: grey;
+}
+
+.Carousel-text{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  color: black;
+  font-size: 3em;
+  
 }
