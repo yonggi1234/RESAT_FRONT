@@ -29,3 +29,7 @@
 
     yarn add react-icons
 
+### fontawesome 설치
+
+    yarn add @fortawesome/fontawesome-free
+
