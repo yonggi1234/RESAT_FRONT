@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 //n주차 수정   ./day_{n}/Challenge_{n}}
-import App from './day_9/App';
+import App from './day_10/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
